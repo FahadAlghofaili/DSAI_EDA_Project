@@ -162,6 +162,5 @@ The dashboard will open in your browser (default: `http://localhost:8501`) and i
 
 This project was developed as part of the **DSAI** program.
 
-## 👤 Author
-
-**Fahad Alghofaili**
+## Deploy:
+https://dsai-eda-project.streamlit.app/
