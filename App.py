@@ -356,9 +356,9 @@ elif page == "📉 Insights & Statistics":
         with col1:
             st.markdown("""
             #### 🏙️ Location Insights
-            - **الرياض (Riyadh)** dominates with **71%** of all listings
+            - ** (Riyadh)** dominates with **71%** of all listings
             - Top 3 cities: Riyadh, Al Khobar, Jeddah
-            - الدرعية and المدينة المنورة round out the top 5
+            - Al Diriyah and Al Madinah Al Munawwarah round out the top 5
 
             #### 💰 Price Insights
             - Median land price: **~1.87M SAR**
