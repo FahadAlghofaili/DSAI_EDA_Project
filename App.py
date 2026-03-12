@@ -525,18 +525,6 @@ elif page == "🤖 Model Prediction":
                 st.error(f"❌ Prediction failed: {e}")
                 st.info("Please check that all input values are valid and try again.")
 
-        # Model info
-        st.markdown("---")
-        with st.expander("ℹ️ About the Model"):
-            st.markdown(f"""
-            | Attribute | Detail |
-            |-----------|--------|
-            | **Algorithm** | Ridge Regression (L2 Regularization) |
-            | **Total Features** | {model.n_features_in_} (one-hot encoded) |
-            | **Input Features** | mainlocation, neighborhood, frontage, purpose, streetwidth, size |
-            | **Target** | land_price (Total land price in SAR) |
-            | **Model File** | `land_price_model.pkl` |
-            """)
 
 
 # ──────────────────────────────────────────────
